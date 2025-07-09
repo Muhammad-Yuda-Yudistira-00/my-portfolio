@@ -1,0 +1,23 @@
+.image-about {
+	margin-bottom: 20px;
+}
+
+.resource-tag a {
+	color: #FFCC0060;
+	font-size: 1.6rem;
+	text-decoration: none;
+	font-weight: lighter;
+}
+.resource-tag a:hover {
+	/*color: #dddddd60;*/
+	text-shadow: 0px 0px 5px #fff;
+}
+
+.my-link {
+	color: #FFCC00;
+}
+
+.my-link:hover {
+	filter: brightness(150%);
+	color: #6e5802;
+}
