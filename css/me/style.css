@@ -21,3 +21,21 @@
 	filter: brightness(150%);
 	color: #6e5802;
 }
+
+.about-detail {
+	border: 2px solid #FFCC00;
+	color: #fff;
+	.about-detail-title {
+		color:white; 
+		font-weight: bold;
+		text-transform: uppercase; 
+		text-decoration: underline;
+		text-align: center;
+		padding-bottom: 30px;
+	}
+	.about-detail-subtitle {
+		color:#fff;
+		font-weight: bold;
+		text-align:left;
+	}
+}
