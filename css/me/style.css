@@ -61,6 +61,25 @@
 	}
 }
 
+.box-back-to-top {
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+	.back-to-top {
+		color: #fff;
+		font-size: 13px;
+		background-color: transparent;
+		padding: 5px 10px;
+		font-weight: lighter;
+		text-decoration-color: #ffcc00;
+	}
+	.back-to-top:hover {
+		color: #ddd;	
+	}
+}
+
+
+
 .about-more {
 	color: white;
 }
