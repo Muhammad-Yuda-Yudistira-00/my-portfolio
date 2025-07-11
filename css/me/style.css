@@ -22,44 +22,96 @@
 	color: #6e5802;
 }
 
-.about-box-button {
-	width: 100%;
-	display: flex;
-	align-items: center;
-	gap: 50px;
-	.button-2 {
-		a {
-			text-decoration: none;
-			border: none;
-			font-size: 18px;
+@media only screen and (max-width: 768px) {
+	.about-box-button {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		.about-more-btn {
+			border: 2px solid #fff;
+			padding: 8px 15px;
+		    font-size: 10px;
+		    text-transform: uppercase;
+		    letter-spacing: 1px;
+		    color: #fff;
+		    a {
+		    	text-decoration: none;
+		    }
 		}
-		a:hover {
-			text-decoration: underline;
-			background-color: transparent;
-			color: #fff !important;
+
+		.about-more-btn:hover {
+			background-color: white;
+			a {
+				color: gray;
+			}
 		}
-		text-transform: uppercase;
+		.button-2 {
+			a {
+				padding: 0px;
+				text-decoration: none;
+				border: none;
+				font-size: 10px;
+			}
+			a:hover {
+				text-decoration: underline;
+				background-color: transparent;
+				color: #fff !important;
+			}
+			text-transform: uppercase;
+		}
+	}
+
+	.about-more {
+		color: white;
+		text-align: center;
+		/*width: 55vw;*/
+		div h3 {
+			font-size: 21px;
+		}
 	}
 }
 
-.about-more-btn {
-	border: 2px solid #fff;
-	padding: 8px 15px;
-    font-size: 13px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #fff;
-    a {
-    	text-decoration: none;
-    }
-}
+@media only screen and (min-width: 769px) {
+	.about-box-button {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		gap: 50px;
+		.about-more-btn {
+			border: 2px solid #fff;
+			padding: 8px 15px;
+		    font-size: 13px;
+		    text-transform: uppercase;
+		    letter-spacing: 1px;
+		    color: #fff;
+		    a {
+		    	text-decoration: none;
+		    }
+		}
 
-.about-more-btn:hover {
-	background-color: white;
-	a {
-		color: gray;
+		.about-more-btn:hover {
+			background-color: white;
+			a {
+				color: gray;
+			}
+		}
+		.button-2 {
+			a {
+				text-decoration: none;
+				border: none;
+				font-size: 18px;
+			}
+			a:hover {
+				text-decoration: underline;
+				background-color: transparent;
+				color: #fff !important;
+			}
+			text-transform: uppercase;
+		}
 	}
 }
+
 
 .box-back-to-top {
 	display: flex;
