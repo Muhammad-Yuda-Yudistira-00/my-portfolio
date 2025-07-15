@@ -124,10 +124,14 @@
 			a {
 				text-decoration: none;
 				border: none;
-				font-size: 18px;
+				padding: 0px;
+				span {
+					color: white;
+				}
 			}
 			a:hover {
 				text-decoration: underline;
+				text-decoration-color: #ffcc00;
 				background-color: transparent;
 				color: #fff !important;
 			}
