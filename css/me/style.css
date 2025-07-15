@@ -183,6 +183,12 @@
 
 	.fav-item {
 		padding-bottom: 15px;
+		.fav-source {
+			text-decoration: none;
+		}
+		.fav-source:hover {
+			text-decoration: underline;	
+		}
 	}
 }
 
